@@ -1,0 +1,72 @@
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators" data-bs-theme="dark">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active ratio">      
+      <img src="images/carousel/carousel1.jpg" alt="Asian cuisine" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Our restaurant</h3>
+        <p>Restaurant hall № 1.</p>
+      </div>
+    </div>
+    <div class="carousel-item ratio">
+      <img src="images/carousel/carousel2.jpg" alt="Our restaurant" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Our restaurant</h3>
+        <p>Restaurant hall № 2.</p>
+      </div>
+    </div>
+    <div class="carousel-item ratio">
+      <!-- For big screens: -->
+      <img id="carousel3" src="images/carousel/carousel3_var2.jpg" alt="Banquet menu" class="d-none d-sm-none d-md-block w-100">
+       <!-- For small screens: -->
+      <img id="carousel3" src="images/carousel/carousel3.jpg" alt="Banquet menu" class="d-md-none w-100">
+
+      <div class="carousel-caption carousel-banquet">
+        <h3></h3>
+        <p id="phone_banquet" class ="fs-4">You can order a banquet from us! We have special 
+         <strong> Banquet menu! </strong>  <br>      
+          <a href="tel:933-666-333" target="_blank">               
+          <span class="background-loader">tel: 933-666-333</span></a>
+        </p>
+      </div>
+    </div>
+  </div></span>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- End Carousel -->
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">        
+        <a href="#" onclick="Global_Obj.loadMenuCategories();"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">  
+        <a href="#" onclick="Global_Obj.loadSpecials();"> <div id="specials-tile"><span>specials</span></div> </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/95cp4D1B1owg3BMa7" target="_blank">          
+
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.2492102997608!2d-8.417857117410314!3d40.20351909792413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f99c27a43041%3A0x7ae59c63b661f313!2sR.%20Combatentes%20da%20Grande%20Guerra%2082%2C%20Coimbra!5e0!3m2!1sru!2spt!4v1686771585572!5m2!1sru!2spt" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div> <!-- End of #home-tiles -->

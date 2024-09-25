@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "name": "Rolls",
+        "short_name": "R",
+        "special_instructions": ""
+    },
+    {
+        "id": 2,
+        "name": "Halves of rolls",
+        "short_name": "HR",
+        "special_instructions": ""
+    },
+    {
+        "id": 3,
+        "name": "Sushi",
+        "short_name": "Su",
+        "special_instructions": ""
+    },
+    {
+        "id": 4,
+        "name": "Sashimi",
+        "short_name": "Ss",
+        "special_instructions": ""
+    },
+    {
+        "id": 5,
+        "name": "Hot dishes",
+        "short_name": "HD",
+        "special_instructions": ""
+    },
+    {
+        "id": 6,
+        "name": "Salads",
+        "short_name": "Sl",
+        "special_instructions": ""
+    },
+    {
+        "id": 7,
+        "name": "Soups",
+        "short_name": "S",
+        "special_instructions": ""
+    },
+    {
+        "id": 8,
+        "name": "Hot appetizers",
+        "short_name": "HA",
+        "special_instructions": ""
+    },
+        
+    {
+        "id": 9,
+        "name": "Wok",
+        "short_name": "W",
+        "special_instructions": ""
+    },
+    {
+        "id": 10,
+        "name": "Sets",
+        "short_name": "Se",
+        "special_instructions": ""
+    },
+    {
+        "id": 11,
+        "name": "Desserts",
+        "short_name": "D",
+        "special_instructions": ""
+    },
+    {
+        "id": 12,
+        "name": "Sauses",
+        "short_name": "Sa",
+        "special_instructions": ""
+    }, 
+    {
+        "id": 13,
+        "name": "Summer menu",
+        "short_name": "SM",
+        "special_instructions": "Special offer - Summer menu is valid from June 01, 2023 to August 31, 2023"
+    }  
+]

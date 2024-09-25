@@ -1,0 +1,744 @@
+body {
+  font-size: 16px;
+  color: #131111;
+  background-color: #d4ddfe;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* BANNERS */
+/* Cookie concent banner */
+
+.cookie_banner {
+  position: fixed;
+  bottom: 10%;
+  display: none;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: linear-gradient(0.25turn, #58b2d9, #e1f8e5, #e09341);
+  padding: 5px;
+}
+
+.cookie_banner_text1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cookie_banner_text2 {
+    font-size: 16px;
+}
+
+.cookie_banner_read {
+  text-align: center;
+}
+
+/* Test banner */
+.test_banner {
+  position: fixed;
+  top: 10%;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 3px;
+  background: linear-gradient(217deg, rgb(48, 116, 226), rgba(255,0,0,0)),
+  linear-gradient(127deg, rgb(18, 228, 228), rgba(0,255,0,0)),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0));
+}
+
+.test_banner p {
+  text-align: center;
+  color: rgb(251, 255, 142);
+  font-weight: bold;
+}
+
+/* Cross */
+.closebtn {
+  text-align: right;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 26px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+/* End BANNERS */
+
+/* HEADER */
+#header-nav {
+  background-color: #acdaf9;
+  border-radius: 0;
+  border: 0;  
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_medium.PNG') no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 5px 5px 5px 5px;
+} 
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0d034e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+  text-decoration: none;
+}
+
+.navbar-brand p { /* certified */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span { /* Star*/
+  vertical-align: middle;
+} 
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #0d034e;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+ 
+#nav-list a svg {
+  width: 26px;
+  height: 26px;
+}
+
+#phone {
+  margin-top: 0px;
+}
+
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  font-size: 1.6em;     
+}
+
+#phone div { /* We Deliver */
+  color: black;
+  text-align: right;
+  padding-right: 15px;
+}
+
+div button.navbar-toggler {  
+  position: absolute;
+  top: 30px; 
+  left: 20px;
+  border: 1px solid #61122f; 
+  clear: both;
+}
+
+.navbar-toggler:hover {
+  background: #E7E7E7;
+}
+
+.navbar-toggler:focus {
+ box-shadow: 0px 0px 1px #61122f;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #E7E7E7;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230d034e'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230d034e'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.carousel-caption {
+  top: 65%;  
+}
+
+.carousel-banquet {
+  top: 32%;
+  color:#0d034e;
+}
+
+.carousel-item {
+   height: 450px;
+}
+
+#phone_banquet span { /* Phone number for banquet */
+  text-align: right;
+  padding-bottom: 0;
+  font-size: 1em; 
+  color: #0d034e;    
+}
+
+#phone_banquet a:hover, #phone_banquet a:focus, #phone_banquet a:link {
+  text-decoration: none;
+}
+
+.background-loader { 
+  animation: background-loader 2s infinite linear;
+  margin: 0.5em;
+}
+
+@keyframes background-loader {
+  from   {background-color: rgba(172, 218, 249, 0.5);
+    border-radius: 10px;}
+  to {background-color:  rgba(212, 221, 255, 0.5);
+    border-radius: 1px;}
+}
+
+#main-content {
+  margin-bottom: 30px;
+  margin-top: 180px;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 30px; 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/menu-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+#button_up {
+  background-color:  rgb(163, 169, 193);
+}
+
+#button_up_big {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(163, 169, 193);
+}
+
+.btn-up_hide {
+  display: none;
+}
+
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #acdaf9;
+  overflow: hidden;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto 15px;
+  transition: width 0.5s, height 0.5s linear;  
+}
+
+.category-tile img {  
+  transition: width 0.5s, height 0.5s linear;     
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+  transition: width 0.5s, height 0.5s linear; 
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;  
+  width: 276px;
+  height: 221px;    
+}
+
+.category-tile img:hover {    
+  width: 100%;
+  height: 87%;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+
+.menu-item-tile hr {
+  width: 80%;
+  margin: 15px auto 15px;
+}
+
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+}
+
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+
+.custom-popover {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: #131111;
+  --bs-popover-header-bg: #acdaf9;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+
+/* END SINGLE CATEGORY PAGE */
+
+/* ABOUT PAGE */
+#about {
+  background: url('../images/About_1200.png') no-repeat;
+  height: 675px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+/* END ABOUT PAGE */
+
+/* SPECIALS PAGE */
+#specials {
+  background: url('../images/About_1200.png') no-repeat;
+  font-size: 18px; 
+  position: relative; 
+}
+
+#summer-menu {
+ background-color: #396b16;
+ color: #cccccc;
+ width: 150px;
+ position: absolute;
+ top: 40%;
+ left: 15%;
+ font-size: 18px;  
+}
+
+.border-loader {
+  border: 5px solid;  
+  animation: border-loader 3s infinite ease-in-out;
+  outline: 2px groove rgba(255, 192, 203, 0.57);
+  transition: outline 0.6s linear;
+  margin: 0.5em;
+}
+
+.border-loader:hover { outline-width: 4px; animation-play-state: paused;}
+
+@keyframes border-loader {
+  0%   {border-image: linear-gradient(to right,    
+    #96cfca,
+    #f0ebab,    
+    #f3b4ce       
+    ) 1}
+  25%  {border-image: linear-gradient(to bottom,          
+    #96cfca,
+    #f0ebab,    
+    #f3b4ce      
+    ) 0.5}
+  50%  {border-image: linear-gradient(to left,   
+    #96cfca,
+    #f0ebab,    
+    #f3b4ce      
+    ) 1}
+  100% {border-image: linear-gradient(to top,   
+    #96cfca,
+    #f0ebab,    
+    #f3b4ce     
+    ) 10%}
+}
+
+/* END SPECIALS PAGE */
+
+/* FOOTER */
+.card-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #acdaf9;
+  border-top: 0;
+}
+
+.card-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours, #address {
+  line-height: 2;
+}
+
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+
+#address p {
+  color: #0d034e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+/* END FOOTER */
+
+/********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+.container {
+    max-width: 1200px;
+  }
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) and (max-width: 1199.5px) {
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+  #main-content {
+    margin-top: 160px;
+  }
+
+  .container {
+    max-width: 992px;
+  }
+
+  #summer-menu {
+    top: 43%;
+   }
+
+} 
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991.5px) {
+
+  #navbarSupportedContent.collapse { 
+    margin-top: 60px;
+    margin-left: -120px;
+  }
+
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.PNG') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+
+  .carousel-item {
+      height: 350px;
+  }
+
+  #main-content {
+      margin-top: 180px;
+    }
+
+  #summer-menu {
+    width: 120px;
+    font-size: 1em; 
+    top: 45%;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 576px) and (max-width: 767.5px) {
+
+  #logo-img {
+    background: url('../images/restaurant-logo_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 50px;
+  }
+  
+  #nav-list {
+    display: block;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    margin-left: 110px;
+    margin-top: -60px;
+    padding-top: 10px;
+    font-size: 1.3em;
+  }
+
+  .navbar-brand p { /* certified */
+    margin-top: -20px;
+    margin-left: 90%;
+  }
+
+  .navbar-brand p img { /* Star */
+    height: 20px;
+    margin-left: 50px;
+  }
+
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    top: 55%;  
+  }
+
+  .carousel-banquet {
+    top: 30%;
+  }
+  
+  #carousel3 {
+    background: url('../images/carousel/carousel3.jpg') no-repeat;
+  }
+  
+  #main-content {
+    margin-top: 20px;
+  }
+
+  #about {
+    font-size: 1.1em;
+  }
+ 
+  .menu-item-photo {                  
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    position: relative;
+    right: 30%;
+  }
+  .menu-item-description {
+    text-align: center;
+  } 
+
+  #summer-menu {
+    width: 100px;   
+    font-size: 0.8em; 
+    top: 40%;
+  }  
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 575.5px) {
+
+  #logo-img {
+    background: url('../images/restaurant-logo_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 60px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  .navbar-brand h1 { /* Restaurant name */  
+    margin-left: 110px;
+    margin-top: -70px;
+    padding-top: 10px;
+    font-size: 1.3em;
+  }
+
+  .navbar-brand p img { /* Star*/
+    height: 20px;
+    margin-left: 40px;
+  }
+
+  .navbar-brand p { /* certified */
+    margin-top: 5px;
+    font-size: .6em;
+    margin-left: 22%;
+    float: left;
+  }
+
+  #nav-list {
+    display: block;
+  }
+
+  #navbarSupportedContent a { /* Collapsed nav menu text */
+    font-size: 1.1em;
+  }
+
+  #navbarSupportedContent a svg { /* Collapsed nav menu glyph */
+    margin-right: 5px;
+    width: 20px;
+    height: 20px; 
+  }
+
+  div button.navbar-toggler {  
+    position: absolute;
+    top: 30px; 
+    left: 20px;
+    clear: both;
+  }
+
+  .carousel-item {
+    height: 300px;
+  }
+
+  #main-content {
+    margin-top: 20px;
+  }
+
+  #about {
+    font-size: 0.95em;
+  } 
+
+ .stroka_menu {
+    float: left;
+    vertical-align: middle;
+  }
+
+  .carousel-caption {
+    top: 55%;  
+  }
+
+  .carousel-banquet {
+    top: 20%;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 300px;
+    margin: 20px auto 15px;
+  }
+
+  .menu-item-photo {                    
+    margin-right: auto;
+  }
+
+  .menu-item-tile .menu-item-price {
+    position: relative;
+    right: 30%;
+  }
+
+  .menu-item-description {
+    text-align: center;
+  }
+
+  #specials h3 {
+    font-size: 1em;
+  }
+
+  #summer-menu {
+    width: 80px;  
+    font-size: 0.6em; 
+    top: 42%;
+    left: 16%;
+   }
+
+  .card-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .card-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .card-footer section hr {
+    width: 50%;
+    margin: 15px auto 15px;
+    border: 2px solid #fff;
+  }  
+}

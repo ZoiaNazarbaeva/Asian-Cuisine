@@ -1,0 +1,1106 @@
+{
+    "R": {
+        "category": {
+            "id": 1,
+            "name": "Rolls",
+            "short_name": "R",
+            "special_instructions": "Rolls are completed with a free Set for rolls (Soy sauce Light 35g., Wasabi 6g., Ginger 15g.)."
+        },
+       
+        "menu_items": [
+            {
+                "short_name": "R1",
+                "name": "Moriawase Roll",
+                "description": "Assorted uramaki rolls: scallop, tuna, shrimp, salmon, octopus and eel stuffed with cream cheese, cucumber and mango.",
+                "ingredients": "Ingredients: Pickled rice, nori, mango, fresh cucumber, cream cheese, seaside scallop, tuna, shrimp, salmon, octopus, eel.",
+                "large_portion_name": "",
+                "price_large": 10,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 235 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 7.89 g., Fats 3.81 g, Carbohydrates 15.26 g., Calories 126.84 Kcal."
+            },
+           
+            {
+                "short_name": "R2",
+                "name": "Philadelphia light",
+                "description": "Maki roll with salmon on top, cream cheese and cucumber.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), salmon, fresh cucumbers, cream cheese, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 9,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 200 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 6.07 g., Fats 5 g, Carbohydrates 15.94 g., Calories 133.03 Kcal."
+            },
+
+            {
+                "short_name": "R3",
+                "name": "Sashimi maki",
+                "description": "Author's roll without rice with salmon, red caviar, avocado, cucumber and tomago omelet. Garnished with walnut sauce and green onions. Served with a mix of daikon and red cabbage.",
+                "ingredients": "Ingredients: Fillet salmon, scrambled eggs (chicken egg, egg powder, milk, fish sauce. oil grows, hondashi, soy sauce, food coloring, sugar), plum cheese, fresh daikon, red cabbage, salmon caviar, nuts sauce ., citrus sauce. (unagi sauce, rice vinegar, lime puree, orange puree, sugar, fish sauce), shirach, green onion.",                
+                "large_portion_name": "",
+                "price_large": 11.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 200 grams",
+                "quantity": "",
+                "composition": "Proteins 11.12 g Fats 10.52 g Carbohydrates 6.82 g Calories 166.44 Kcal."
+            },
+
+            {
+                "short_name": "R4",
+                "name": "Tuna cheese maki",
+                "description": "Author's roll without rice with seared salmon, stuffing with tuna, cheese and green onions. Served with citrus sauce. Garnished with wasabiko sauce, shiracha and sesame seeds.",                
+                "ingredients": "Ingredients: Cheese melting hochland, tuna fillet, salmon fillet, scrambled eggs (chicken egg, egg powder, milk, fish sauce, oil grows, hondashi, soy sauce, food coloring, sugar), green onion, citrus sauce. (unagi sauce, rice vinegar, lime puree, orange puree, sugar, fish sauce), wasabiko sauce (mayonnaise, wasabi, lime, milk thickening), shirach sauce, sesame mix, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 11,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 210 grams",
+                "quantity": "6 pieces",
+                "composition": "Proteins 17.12 g Fats 11.46 g Carbohydrates 6.82 g Calories 198.92 Kcal."
+            },
+
+            {
+                "short_name": "R5",
+                "name": "Philadelphia max",
+                "description": "Uramaki roll with tender salmon, cream cheese, avocado, cucumber and flying fish caviar.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), salmon, fresh cucumbers, cream cheese, summer fish caviar, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 12,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 280 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 7.87 g Fats 6.61 g Carbohydrates 12.46 g Calories 140.79 Kcal."
+            },
+            
+            {
+                "short_name": "R6",
+                "name": "Gaidamaki",
+                "description": "Uramaki roll with shrimp in batter, crab and tobiko caviar. Garnished with sesame.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), w/m crab, tempurn shrimp, summer fish caviar, white sesame, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 210 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 6.13 g Fat 5.77 g Carbohydrates 19.75 g Calories 155.41 Kcal."
+            },
+
+            {
+                "short_name": "R7",
+                "name": "Niji roll",
+                "description": "Author's roll with tuna, cheese, salmon, scallop and tomago omelet. Garnished with mango sauce and strawberries.",
+                "ingredients": "Ingredients: salmon fillet, tuna fillet, scallop fillet, fresh cucumber, scrambled eggs (chicken egg, egg powder, milk, fish sauce. oil grows, hondashi, soy sauce, food coloring., sugar), plum cheese, red cabbage ., strawberries, mango sauce (mayonnaise, mango puree), citrus sauce. (unagi sauce, rice vinegar, lime puree, orange puree, sugar, fish sauce), sweet daikon, nori seaweed, raspberry powder.",
+                "large_portion_name": "",
+                "price_large": 11,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 220 grams",
+                "quantity": "6 pieces",
+                "composition": "Proteins 11.78 g Fats 4.71 g Carbohydrates 7.04 g Calories 117.69 Kcal."
+            },
+
+            {
+                "short_name": "R8",
+                "name": "Roll with smoked salmon",
+                "description": "Tempura roll with smoked salmon, cream cheese, cucumber. Garnished with sesame, unagi, spicy and sweet chili sauces.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), hot smoked salmon, cream cheese, fresh cucumber, sweet chili sauce, spice sauce, unagi sauce, mix of sesame seeds, vegetable oil, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 280 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 7.79 g Fats 10.51 g Carbohydrates 19.12 g Calories 202.24 Kcal."
+            },
+
+            {
+                "short_name": "R9",
+                "name": "Roll with crab mousse and tuna",
+                "description": "Author's roll with tuna, scallop, salmon, crab stick mousse, avocado, cucumber and tamago omelet. Garnished with mango sauce, siracha sauce and green onions.",
+                "ingredients": "Ingredients: Scallop fillet, salmon fillet, tuna fillet, scrambled eggs (chicken egg, egg powder, milk, fish sauce. oil grows, hondashi, soy sauce, food coloring., sugar), mousse (crab stick, mayonnaise, plum cheese. ), citrus sauce. (unagi sauce, rice vinegar, lime puree, orange puree, sugar, fish sauce), mango sauce (mayonnaise, mango puree), shirach, green onion, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 8.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 230 grams",
+                "quantity": "6 pieces",
+                "composition": "Proteins 13.81 g Fats 8.89 g Carbohydrates 7.81 g Calories 166.48 Kcal."
+            },
+
+            {
+                "short_name": "R10",
+                "name": "Tataki roll",
+                "description": "Tataki roll with tuna, cucumber and cream cheese. Garnished with pesto and sesame seeds.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), tuna, fresh cucumbers, cream cheese, unagi sauce, pesto sauce (St. basil, cedar nuts, Parmesan cheese, vegetable oil, St. garlic) white sesame ., seaweed nori.",
+                "large_portion_name": "",
+                "price_large": 9,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 230 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 8.14 g. Fat 7.98 g. Carbohydrates 15.52 Calories 166.43 Kcal."
+            },
+
+            {
+                "short_name": "R11",
+                "name": "Baked salmon roll",
+                "description": "Roll with salmon, cucumber and scrambled eggs, baked with flying fish caviar, light mayonnaise and cheese. Garnished with teriyaki sauce and sesame seeds.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 7.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 245 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 5.74 g Fats 14.62 g Carbohydrates 16.35 g Calories 219.95 Kcal."
+            },
+
+            {
+                "short_name": "R12",
+                "name": "Syake fry maki",
+                "description": "Warm roll without rice with a crispy crust, stuffed with shrimp, salmon, cucumber, scrambled eggs, cream cheese and green onions. Garnished with unagi sauce, sesame seeds and chili sauce.",
+                "ingredients": "Ingredients: Salmon fillet, tiger shrimp. b / g, fresh cucumber, scrambled eggs (chicken eggs, hondashi, egg powder, milk, sugar, soy sauce, fish sauce), cream cheese, temp flour, millet flour, green onion. fresh, unagi sauce, shirach, nori seaweed, mix of sesame seeds, vegetable oil.",
+                "large_portion_name": "",
+                "price_large": 7.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 230 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 11.25 kg. Fats 8.02 g Carbohydrates 9.83 g Calories 156.52 Kcal."
+            },
+
+            {
+                "short_name": "R13",
+                "name": "Owara roll",
+                "description": "Roll in tobiko caviar stuffed with fried salmon skin, cream cheese and cucumber. Garnished with tuna shavings.",
+                "ingredients": "Ingredients: Rice marin. (rice groats, rice vinegar, sugar, salt), salmon skin, cream cheese, fresh cucumber, caviar. fish, nori seaweed, tuna shavings. dry.",
+                "large_portion_name": "",
+                "price_large": 7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 230 grams",
+                "quantity": "",
+                "composition": "Proteins 5.75 g Fats 4.4 g Carbohydrates 16.48 g Calories 128.56 Kcal."
+            },
+
+            {
+                "short_name": "R14",
+                "name": "Yasai maki",
+                "description": "Vegetable roll stuffed with bell pepper, cucumber, avocado, lettuce and sesame.",
+                "ingredients": "Ingredients: Rice marin. (rice groats, rice vinegar, sugar, salt), leaf lettuce, sweet pepper, fresh cucumber, nori seaweed, white sesame seed.",
+                "large_portion_name": "",
+                "price_large": 7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 190 grams",
+                "quantity": "",
+                "composition": "Proteins 2.19g. Fats 3.58g. Carbohydrates 19.38 Calories 118.52 Kcal."
+            },
+
+            {
+                "short_name": "R15",
+                "name": "Roll with duck",
+                "description": "Uramaki roll wrapped with cucumber stuffed with duck, marinated orange, cream cheese and green onion. Garnished with hoisin sauce and raspberry powder.",
+                "ingredients": "Ingredients: Rice Mar. (rice groats, rice vinegar, sugar, salt), sous-vide duck breast, orange mar. (fresh orange, orange juice, sugar syrup), cream cheese, fresh cucumber, hoisin sauce, green onion, nori seaweed, raspberry powder.",
+                "large_portion_name": "",
+                "price_large": 8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 245 grams",
+                "quantity": "",
+                "composition": "Proteins 5.3 g Fats 4.07 g Carbohydrates 19.02 Calories 133.88 Kcal."
+            }            
+        ]
+    },
+
+    "HR": {
+        "category": {
+            "id": 2,
+            "name": "Halves of rolls",
+            "short_name": "HR",
+            "special_instructions": "Rolls are completed with a free Set for rolls (Soy sauce Light 35g., Wasabi 6g., Ginger 15g.)."
+        },
+        "menu_items": [
+            {
+                "short_name": "HR1",
+                "name": "Gaidamaki",
+                "description": "Uramaki roll with shrimp in batter, crab and tobiko caviar. Garnished with sesame.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), w/m crab, tempurn shrimp, summer fish caviar, white sesame, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 4,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 120 grams",
+                "quantity": "4 pieces",
+                "composition": "Proteins 5.37 g Fats 5.05 g Carbohydrates 17.28 g Calories 135.98 Kcal."
+            },
+
+            {
+                "short_name": "HR2",
+                "name": "Philadelphia light",
+                "description": "Maki roll with salmon on top, cream cheese and cucumber.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), salmon, fresh cucumbers, cream cheese, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 4.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 110 grams",
+                "quantity": "4 pieces",
+                "composition": "Proteins 5.52 g. Fats 4.54 kg. Carbohydrates 14.49 g Calories 120.93 Kcal."
+            }
+            
+        ]
+    },
+
+    "Su": {
+        "category": {
+            "id": 3,
+            "name": "Sushi",
+            "short_name": "Su",
+            "special_instructions": "Sushi are completed with a free Set for rolls (Soy sauce Light 35g., Wasabi 6g., Ginger 15g.)"
+         },
+         "menu_items": [
+            {
+                "short_name": "Su1",
+                "name": "Spicy sushi with crab and cucumber",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), crab, fresh cucumbers, sauce (mayonnaise, shirach sauce, unagi sauce, red pepper, monosodium glutamate), nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 2.89 g Fats 6.24 g Carbohydrates 19.13 g Calories 144.22 Kcal."
+            },
+
+            {
+                "short_name": "Su2",
+                "name": "Spicy sushi octopus",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), octopus, sauce (mayonnaise, shirach sauce, unagi sauce, red pepper, monosodium glutamate), nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 14.93 g. Fats 8.21 g. Carbohydrates 17.55 g Calories 203.79 Kcal."
+            },
+
+            {
+                "short_name": "Su3",
+                "name": "Baked Scallop Sushi",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), fillet scallop, sauce (mayonnaise, ketchup, garlic, kimchi sauce, flying fish caviar), parmesan cheese, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 60 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 5.86 g, Fats 16.84 g, Carbohydrates 15.7 g, Calories 237.8 Kcal."
+            },
+
+            {
+                "short_name": "Su4",
+                "name": "Spicy sushi scallop",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), fillet scallop, sauce (mayonnaise, shirach sauce, unagi sauce, red pepper, monosodium glutamate), nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5.4,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 6.17 g, Fats 8.78 g, Carbohydrates 18.3 g, Calories 176.93 Kcal."
+            },
+
+            {
+                "short_name": "Su5",
+                "name": "Sushi with crab and salmon caviar",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), kneading (crab, mayonnaise), salmon caviar, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5.4,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 6.06 g, Fats 10 g, Carbohydrates 19.28 g, Calories 191.36 Kcal."
+            },
+
+            {
+                "short_name": "Su6",
+                "name": "Spicy sushi shrimp",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), shrimp, sauce (mayonnaise, shirach sauce, unagi sauce, red pepper, monosodium glutamate), nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 4.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 6.81 g, Fats 8.38 g, Carbohydrates 17.43 g, calories 172.37 Kcal."
+            },
+
+            
+            {
+                "short_name": "Su7",
+                "name": "Sushi with eel",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), eel, unagi sauce, nori seaweed, sesame seed, wasabi powder.",
+                "large_portion_name": "",
+                "price_large": 4.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 10.55 g, Fats 10.16 g, Carbohydrates 18.08 g, Calories 206 Kcal."
+            },
+
+            {
+                "short_name": "Su8",
+                "name": "Sushi with tuna",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), tuna, nori seaweed, wasabi powder.",
+                "large_portion_name": "",
+                "price_large": 4.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 10.53 g, Fats 0.68 g, Carbohydrates 17.61 g, Calories 118.64 Kcal."
+            },
+
+            {
+                "short_name": "Su9",
+                "name": "Baked tuna sushi",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), tuna fillet, sauce (mayonnaise, ketchup, fresh garlic, kimchi sauce, flying fish caviar), parmesan cheese, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 60 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 7.46 g, Fats 16.57 g, Carbohydrates 14.9 g, Calories 238.6 Kcal."
+            },
+
+            {
+                "short_name": "Su10",
+                "name": "Sushi with flying fish caviar",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), flying fish roe, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 6.31 g, Fats 1.49 g, Carbohydrates 20.67 g, Calories 121.33 Kcal."
+            },
+
+            {
+                "short_name": "Su11",
+                "name": "Philadelphia Sushi",
+                "description": "",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), fresh cucumbers, salmon, cream cheese, sesame seed.",
+                "large_portion_name": "",
+                "price_large": 4.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 60 grams",
+                "quantity": "2 pieces",
+                "composition": "Proteins 6.51 g, Fats 4.26 g, Carbohydrates 14.63 g, Calories 122.88 Kcal."
+            }
+        ]
+    },
+
+    "Ss": {
+        "category": {
+            "id": 4,
+            "name": "Sashimi",
+            "short_name": "Ss",
+            "special_instructions": "Sashimi is completed with a free Set for rolls (Soy sauce Light 35g., Wasabi 6g., Ginger 15g.)"
+         },
+        "menu_items": [
+            {
+                "short_name": "Ss1",
+                "name": "Octopus sashimi",
+                "description": "Octopus fillet",
+                "ingredients": "Ingredients: Suvid octopus, fresh daikon, fresh lemons, fresh cucumbers, butter.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 23.1 g Fat 0.01 g Carbohydrates 2.52 g Calories 102.58 Kcal."
+            },
+
+            {
+                "short_name": "Ss2",
+                "name": "Salmon sashimi",
+                "description": "Salmon fillets",
+                "ingredients": "Ingredients: Salmon, fresh daikon, fresh lemons, fresh cucumbers.",
+                "large_portion_name": "",
+                "price_large": 4.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 10.45 g. Fats 3.33 g. Carbohydrates 1.99 g Calories 79.7 Kcal."
+            },
+
+            {
+                "short_name": "Ss3",
+                "name": "Scallop sashimi",
+                "description": "Sea scallop fillet",
+                "ingredients": "Ingredients: Fillet scallop, fresh daikon, fresh lemons, fresh cucumbers.",
+                "large_portion_name": "",
+                "price_large": 5.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 8.56 g, Fats 0.96 g, Carbohydrates 3.41 g, Calories 56.49 Kcal."
+            },
+
+            {
+                "short_name": "Ss4",
+                "name": "Tuna sashimi",
+                "description": "Tuna fillet",
+                "ingredients": "Ingredients: Tuna, fresh daikon, fresh lemons, fresh cucumbers.",
+                "large_portion_name": "",
+                "price_large": 5.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 11.6 g, Fats 0.49 g, Carbohydrates 2.32 g, Calories 60.06 Kcal."
+            },
+
+            {
+                "short_name": "Ss5",
+                "name": "Eel sashimi",
+                "description": "Fillet of smoked eel",
+                "ingredients": "Ingredients: Fried eel, fresh daikon, fresh lemons, fresh cucumbers.",
+                "large_portion_name": "",
+                "price_large": 5.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 11.69 g, Fats 11.75 g, Carbohydrates 3.66 g, Calories 167.14 Kcal."
+            },
+
+            {
+                "short_name": "Ss6",
+                "name": "Shrimp sashimi",
+                "description": "Boiled tiger shrimp fillet on a daikon bed",
+                "ingredients": "Ingredients: Shrimp, fresh daikon, fresh lemons, fresh cucumbers.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 95 grams",
+                "quantity": "",
+                "composition": "Proteins 9.6 g, Fats 0.29 g, Carbohydrates 1.99 g, Calories 49.01 Kcal."
+            }
+            
+        ]
+    },
+
+    "HD": {
+        "category": {
+            "id": 5,
+            "name": "Hot dishes",
+            "short_name": "HD",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "HD1",
+                "name": "Ebi chili",
+                "description": "Shrimp, mussel and garlic arrows, fried in a light starch breading on cast iron with a creamy coconut sauce, with the addition of shiracha and kimchi sauces. Garnished with a mix of sesame and chili pepper.",
+                "ingredients": "Ingredients: tiger shrimp., mussel fillet w / m, garlic arrows, vegetable oil, sauce (cream, coconut milk, kimchi sauce, shirach), sesame mix, potato starch., pepper light.",
+                "large_portion_name": "",
+                "price_large": 12,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 11.06 g Fat 7.92 g Carbohydrates 3.54 g Calories 129.7 Kcal."
+            },
+
+            {
+                "short_name": "HD2",
+                "name": "Beef in creamy sauce with mashed potatoes",
+                "description": "Beef fried in a creamy sauce with champignons. Served with mashed potatoes.",
+                "ingredients": "Ingredients: Mashed potatoes (fresh potatoes, milk, plum butter, salt), beef fillet (roast beef), sauce (vegetable cream, oyster sauce, beef calbi sauce, milk), onion, champignon mushrooms, hot onion. dry, vegetable oil, green oil, mini spinach.",
+                "large_portion_name": "",
+                "price_large": 11.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 5.97 g Fat 9.45 g Carbohydrates 10.67 g Calories 151.61 Kcal."
+            },
+
+            {
+                "short_name": "HD3",
+                "name": "Pork in sweet and sour sauce",
+                "description": "Pork in sweet and sour sauce. Garnished with sesame and cilantro.",
+                "ingredients": "Ingredients: Pork bk (carbonate), sauce (sugar, tomato paste, water, white vinegar, salt), fresh carrots, fresh ginger, fresh garlic, potato starch, sesame oil, vegetable oil, sesame mix, greens cilantro St.",
+                "large_portion_name": "",
+                "price_large": 11.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 12.13 g. Fats 8.7 g. Carbohydrates 14.03 g. Calories 182.98 Kcal."
+            }
+            
+        ]
+    },
+
+    "Sl": {
+        "category": {
+            "id": 6,
+            "name": "Salads",
+            "short_name": "Sl",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "Sl1",
+                "name": "Kani Sarada",
+                "description": "Mix of salads with crab phalanx, tomatoes cherry tomatoes, orange and mini spinach with honey mustard sauce.",
+                "ingredients": "Ingredients: Lettuce mix, mini spinach, crab phalanx, pickled orange, cherry tomatoes, honey mustard dressing.",
+                "large_portion_name": "",
+                "price_large": 7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 150 grams",
+                "quantity": "",
+                "composition": "Proteins 2.58 g. Fat 5.73 g. Carbohydrates 15.52 Calories 123.95 Kcal."
+            },
+
+            {
+                "short_name": "Sl2",
+                "name": "Seafood Tartare with Yuzu Sauce",
+                "description": "Tartar with shrimp, scallop, tuna and avocado with yuzu sauce. Garnished with herbs and lime.",
+                "ingredients": "Ingredients: Tuna fillet, tiger shrimp, fillet scallop, fresh avocado, yuzu sauce (yuzu, citrus sauce (unagi sauce, rice vinegar, lime puree, orange puree, sugar, fish sauce), lime, fresh cilantro. , fresh mint, green onion, red onion, sesame mix, fresh cilantro, hot pepper.",
+                "large_portion_name": "",
+                "price_large": 6.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 165 grams",
+                "quantity": "",
+                "composition": "Proteins 11.43 g Fat 5.2 g Carbohydrates 8.47 g Calories 126.43 Kcal."
+            }            
+        ]
+    },
+
+    "S": {
+        "category": {
+            "id": 7,
+            "name": "Soups",
+            "short_name": "S",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "S1",
+                "name": "Unagi siru",
+                "description": "Creamy soup with eel, wakame seaweed, rice. Garnished with green onions and sesame seeds.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 6.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 270 grams",
+                "quantity": "",
+                "composition": "Proteins 5.14 g Fat 9.43 g Carbohydrates 7.4 g Calories 135.03 Kcal."
+            },
+
+            {
+                "short_name": "S2",
+                "name": "kimchi soup",
+                "description": "Spicy miso-based soup with kimchi cabbage, beef, tofu, egg and wakame seaweed. Garnished with green onions and sesame seeds.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 6,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 400 grams",
+                "quantity": "",
+                "composition": "Proteins 4.91 g Fats 3.96 g Carbohydrates 1.76 g Calories 62.34 Kcal."
+            },
+
+            {
+                "short_name": "S3",
+                "name": "Miso soup",
+                "description": "Traditional Japanese soup with soy miso paste and tofu cheese with wakame seaweed.",
+                "ingredients": "Ingredients: Broth based on miso paste, tofu cubes, dry wakame seaweed.",
+                "large_portion_name": "",
+                "price_large": 3,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 200 grams",
+                "quantity": "",
+                "composition": "Proteins 1.16 g Fat 0.79 g Carbohydrates 0.68 g Calories 14.49 Kcal."
+            }            
+        ]
+    },
+
+    "HA": {
+        "category": {
+            "id": 8,
+            "name": "Hot appetizers",
+            "short_name": "HA",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "HA1",
+                "name": "Wasabi shrimps",
+                "description": "Breaded tiger shrimp, deep fried. Served in author's wasabi sauce based on light Japanese mayonnaise and garnished with tobiko caviar.",
+                "ingredients": "Ingredients: white tiger shrimp, melange, corn starch, deep frying oil, red tobika, wasabiko sauce.",
+                "large_portion_name": "",
+                "price_large": 5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 125 grams",
+                "quantity": "",
+                "composition": "Proteins 10.98g. Fats 23.09 g Carbohydrates 8.97 g Calories 287.61 Kcal."
+            },
+
+            {
+                "short_name": "HA2",
+                "name": "Taco muni",
+                "description": "Crispy balls of octopus and pak choi. Served with wafu sauce.",
+                "ingredients": "Ingredients: ground octopus sous-vide, wheat flour, egg melange, breadcrumbs, Tamaki sauce.",
+                "large_portion_name": "",
+                "price_large": 5.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 140 grams",
+                "quantity": "",
+                "composition": "Proteins 26.48 g. Fats 54.11 g. Carbohydrates 32.72 g Calories 723.79 Kcal."
+            },
+
+            {
+                "short_name": "HA3",
+                "name": "Gyoza with shrimp in creamy sauce",
+                "description": "Gedza fried until golden brown in a creamy sauce, stuffed with shrimp, peas, carrots and green onions. Garnished with black sesame seeds, spicy butter.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 4.3,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 140 grams",
+                "quantity": "",
+                "composition": "Proteins 9.38 g Fats 13.28 g Carbohydrates 18.84 g Calories 232.39 Kcal."
+            }            
+        ]
+    },
+
+    "W": {
+        "category": {
+            "id": 9,
+            "name": "Wok",
+            "short_name": "W",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "W1",
+                "name": "Ramen noodles with beef in pepper sauce",
+                "description": "Ramen noodles fried with beef, mushrooms, garlic arrows and zucchini, with the addition of pepper, unagi and oyster sauces. Garnished with green onions and sesame seeds.",
+                "ingredients": "Ingredients: Beef fillet (roast beef), egg ramen noodles, sauce (pepper sauce, unagi sauce, oyster sauce, soy sauce) weak chili sauce, fresh garlic arrows, fresh zucchini, champignon mushrooms, green onion, vegetable oil ., mix sesame.",
+                "large_portion_name": "",
+                "price_large": 7.8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 9.5 g Fat 3.24 g Carbohydrates 33.68 g Calories 201.91 Kcal."
+            },
+
+            {
+                "short_name": "W2",
+                "name": "Wok with curry shrimp and udon noodles",
+                "description": "Udon noodles fried in curry sauce with shrimp, mushrooms, zucchini and corn. Garnished with cilantro.",
+                "ingredients": "Ingredients: Udon noodles, tiger shrimp, sauce (coconut milk, curry paste, fish sauce, chicken broth, sugar, carton starch, fresh garlic), fresh zucchini, champignon mushrooms, canned corn, green onion ., vegetable oil, cilantro St.",
+                "large_portion_name": "",
+                "price_large": 7.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 5.37 g. Fats 8.37 g. Carbohydrates 6.97 g Calories 124.7 Kcal."
+            },
+
+            {
+                "short_name": "W3",
+                "name": "Somen with duck breast",
+                "description": "Duck breast with vegetables and somen noodles fried with unagi sauce and oyster sauce. Garnished with sesame seeds and green onions.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 8,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 250 grams",
+                "quantity": "",
+                "composition": "Proteins 11.1 g Fat 3.07 g Carbohydrates 49.36 g Calories 269.41 Kcal."
+            }            
+        ]
+    },
+
+    "Se": {
+        "category": {
+            "id": 10,
+            "name": "Sets",
+            "short_name": "Se",
+            "special_instructions": "Rolls, sushi, sashimi and sets are completed with a free set for rolls (Soy sauce Light 35g., Wasabi 6g., Ginger 15g.)."
+        },
+        "menu_items": [
+            {
+                "short_name": "Se1",
+                "name": "Kansai",
+                "description": "Roll set: Philadelphia salmon, Sapporo, Avocado Crunch Maki, Spicy Maki. For 2-3 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 24,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 885 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "Se2",
+                "name": "Maguro set",
+                "description": "Set of rolls: Spicy maguro roll 1/2, Maguro maki, Yoko ono and 2 pieces of sushi with tuna. For 1-2 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 18,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 550 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "Se3",
+                "name": "Syake set",
+                "description": "A set of rolls: Philadelphia salmon 1/2, Syake maki, Takeshi Kitano and 2 pieces of sushi with salmon. For 1-2 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 23.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 605 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "Se4",
+                "name": "Fukuoka",
+                "description": "A set of rolls: Yasai maki, Philadelphia salmon 1/2, Spicy maguro roll 1/2. For 1-2 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 13,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 445 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "Se5",
+                "name": "Okinawa",
+                "description": "Set of rolls: California Light, Spicy Maguro Roll, Syake Maki, Sesame Roll, Unagi Uramaki, Cheddar Roll, Maguro Maki, Mitaki, Philadelphia Sesame, Yoko Ono. For 6-8 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 42,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 1980 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "Se6",
+                "name": "Tokyo set",
+                "description": "A set of rolls: Shake ebi spicy, California, Heiko uramaki, Shake maki, Sesame roll, Unagi uramaki, Roll cheddar, Maguro maki, Spicy maki, Unagi maki, Philadelphia sesame, Yoko ono. For 8-10 persons.",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 52,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 2390 grams",
+                "quantity": "",
+                "composition": ""
+            } 
+            
+        ]
+    },
+
+    "D": {
+        "category": {
+            "id": 11,
+            "name": "Desserts",
+            "short_name": "D",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "D1",
+                "name": "Pistachio roll with raspberries",
+                "description": "Airy biscuit roll with pistachio cream and raspberry confiture. Garnished with red currants and powdered sugar.",
+                "ingredients": "Ingredients: protein, powdered sugar, starch, pistachio paste, almond petals, pistachio cream, raspberry jam.",
+                "large_portion_name": "",
+                "price_large": 4,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 110 grams",
+                "quantity": "",
+                "composition": "Proteins 8.27 g. Fats 18.97 g. Carbohydrates 16.61 g Calories 270.26 Kcal."
+            },
+
+            {
+                "short_name": "D2",
+                "name": "Apple strudel",
+                "description": "The author's interpretation of the classic dessert based on filo dough with apple and cinnamon filling. Served with caramel cream and salted caramel syrup. Decorated with berries.",
+                "ingredients": "Ingredients: puff pastry, filling (fresh apples, sugar, cinnamon, lemon peel), sauce (custard sauce (vegetable cream, milk 3.2%, sugar, corn starch, chicken egg, plum oil, lemon peel) .), salted caramel, vegetable cream, salt), fresh strawberries, powdered sugar.",
+                "large_portion_name": "",
+                "price_large": 4.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 170 grams",
+                "quantity": "",
+                "composition": "Proteins 3.14 g Fats 11.26 g Carbohydrates 22.9 g Calories 205.46 Kcal."
+            },
+
+            {
+                "short_name": "D3",
+                "name": "Snow mochi",
+                "description": "The author's interpretation of a Japanese dessert made from tender rice dough with cheese cream. Garnished with raspberry confiture and berries.",
+                "ingredients": "Ingredients: Mochi (rice flour, sugar, mascarpone cheese), cream (vegetable cream, milk 3.2%, sugar, corn starch, chicken egg, plum butter, lemon zest), fresh currant, confiture raspberries. (raspberries with / m., pectin, glucose syrup, sugar, lemon peel).",
+                "large_portion_name": "",
+                "price_large": 4.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 120 grams",
+                "quantity": "",
+                "composition": "Proteins 3.24 g Fat 9.84 g Carbohydrates 15.5 g Calories 163.51 Kcal."
+            }            
+        ]
+    },
+
+    "Sa": {
+        "category": {
+            "id": 12,
+            "name": "Sauses",
+            "short_name": "Sa",
+            "special_instructions": ""
+        },
+        "menu_items": [
+            {
+                "short_name": "Sa1",
+                "name": "Sauce Yaki Niku",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa2",
+                "name": "Teriyaki sauce",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa3",
+                "name": "Ginger",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 30 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa4",
+                "name": "Sauce Light",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa5",
+                "name": "Sauce Gamadari",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa6",
+                "name": "Wasabi",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 30 grams",
+                "quantity": "",
+                "composition": ""
+            },
+
+            {
+                "short_name": "Sa7",
+                "name": "Unagi sauce",
+                "description": "",
+                "ingredients": "",
+                "large_portion_name": "",
+                "price_large": 0.7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 50 grams",
+                "quantity": "",
+                "composition": ""
+            }
+            
+        ]
+    },
+
+    "SM": {
+        "category": {
+            "id": 13,
+            "name": "Summer",
+            "short_name": "SM",
+            "special_instructions": ""
+        },
+       
+        "menu_items": [
+            {
+                "short_name": "SM1",
+                "name": "Roll with uni",
+                "description": "Uramaki roll with sea urchin caviar, cucumber and avocado filling with spicy sauceUramaki roll with sea urchin caviar, cucumber and avocado filling with spicy sauce.",
+                "ingredients": "Ingredients: Pickled rice (rice, rice vinegar, sugar, salt), fresh avocado, fresh cucumber, hedgehog caviar, sauce (mayonnaise, kimchi sauce, shirach sauce, fresh garlic, paprika), seasoning (paneer crackers, kunzh. seed, crab chips, vegetable oil, tempurn flour, waffle crumbs, dry chicken broth, paprika, fish concentrate), nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 10,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 180 grams",
+                "quantity": "8 pieces",
+                "composition": "Proteins 4.26 g, Fats 7.52 g, Carbohydrates 31.37 g, Calories 210.19 Kcal."
+            },
+
+            {
+                "short_name": "SM2",
+                "name": "Kuksu",
+                "description": "Cold soup with beef, kimchi cabbage, mushrooms, cucumber and radish. Garnished with cilantro and green onions.",
+                "ingredients": "Ingredients: Broth (fresh cucumbers, cherry tomatoes, daikon, soy sauce, vinegar 70%, sesame oil, rice sauce, salt, sugar, monosodium glutamate), roast beef, somen noodles, radish, kimchi (peking cabbage, kimchi sauce, juice lemon, carrot, shirach sauce, rice vinegar, shichimi pepper), white mushrooms, enokitake, garlic, cilantro, green onion, vegetable oil.",
+                "large_portion_name": "",
+                "price_large": 7,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 230 grams",
+                "quantity": "",
+                "composition": ""
+            },
+            
+            {
+                "short_name": "SM3",
+                "name": "Summer salad",
+                "description": "Lettuce mix, spinach leaves, zucchini, cucumber, radish and cherry tomatoes with sour cream sauce.",
+                "ingredients": "Ingredients: Zucchini, fresh radish, fresh cucumber, cherry tomatoes, leaf lettuce, frisee lettuce, lolo rosso lettuce, iceberg lettuce, spinach, sour cream, rice sauce, parsley, salt, vegetable oil.",
+                "large_portion_name": "",
+                "price_large": 5.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 145 grams",
+                "quantity": "",
+                "composition": "Proteins 1.49 g, Fats 6.09 g, Carbohydrates 3.56 g, Calories 75.04 Kcal."
+            },
+            
+            {
+                "short_name": "SM4",
+                "name": "Poke with salmon",
+                "description": "Poke bowl with salmon fillet, avocado, mango, pickled cucumbers, edamame beans and radishes with wafu sauce. Served on marinated rice.",
+                "ingredients": "Ingredients: Rice marin. (groats rice, rice vinegar, salt, sugar), salmon, red onion, avocado, byby, radish, mango, marinated cucumbers. (St. cucumbers, shrimp sauce, chili pepper, lemon, Bulgarian pepper, cilantro) , cashew, peanut, garlic, ginger, apple, walnut sauce, rice sauce, soy sauce, lime juice, sesame oil, vegetable oil, sesame seed, nori seaweed.",
+                "large_portion_name": "",
+                "price_large": 9.5,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 300 grams",
+                "quantity": "",
+                "composition": "Proteins 4.63 g, Fats 3.6 g, Carbohydrates 28.63 g, Calories 165.39 Kcal."
+            },
+            
+            {
+                "short_name": "SM5",
+                "name": "Salmon and avocado tartar",
+                "description": "Salmon fillet with avocado, mango and red onion. Topped with spicy mustard sauce. Served with cucumber slices marinated in dill oil.",
+                "ingredients": "Ingredients: Salmon, red onion, mango, fresh cucumber, avocado, sauce (honey, mustard, soy sauce, olive oil, white pepper), lemon juice, lime juice, shirach sauce, salt, urop.",
+                "large_portion_name": "",
+                "price_large": 8.2,
+                "small_portion_name": "",
+                "price_small": 0,
+                "weight": "Weight: 110 grams",
+                "quantity": "",
+                "composition": "Proteins 10.33 g, Fats 15.85 g, Carbohydrates 4.74 g, Calories 202.93 Kcal."
+            } 
+        ]
+    }
+
+}
